@@ -1,0 +1,23 @@
+.crypto-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .crypto-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .crypto-box strong {
+    font-size: 18px;
+  }
+  
+  .crypto-box p {
+    margin: 8px 0;
+  }
+
+   
